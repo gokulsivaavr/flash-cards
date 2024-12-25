@@ -1,0 +1,29 @@
+<div class="container">
+    <div>
+        <div class="heading"><h1>FLASH CARDS</h1></div> 
+            <div class="flip-card">
+                <div class="flip-card-inner" [ngClass]="toggle ? 'flipped' : ''">
+                    <div class="flip-card-front">
+                        <mat-card class="example-card">
+                            <mat-card-title>What is Angular CLI?</mat-card-title>
+                        </mat-card>
+                    </div>
+                    <div class="flip-card-back">
+                        <mat-card class="example-card">
+                            <mat-card-title>
+                                Angular CLI is a command-line interface tool 
+                                that helps automate the development workflow, including creating, 
+                                building, testing, and deploying Angular applications.
+                            </mat-card-title>
+                        </mat-card>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+        
+        <div class="btns">
+            <button mat-fab extended (click)="onShowAnswer()">Show Answer</button>
+        </div>
+    </div>
+</div>

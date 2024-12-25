@@ -1,0 +1,10 @@
+ul {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+
+}
+
+ol {
+    padding: 20px;
+}
